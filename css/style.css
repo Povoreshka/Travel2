@@ -1,0 +1,384 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.section {
+  width: 100%;
+}
+
+.container {
+  max-width: 1680px;
+  margin: 0 auto;
+  
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Noto Serif', 'Arial', sans-serif;
+  min-width: 320px;
+  background: url("../img/background.png") no-repeat center;
+  background-size: 100%;
+  background-size: 1680px 1000px;
+}
+
+main {
+  flex-grow: 1;
+}
+.header{
+    min-height: 800px;
+     background-color: #fff; 
+    position: absolute;
+   
+  }
+  .header_menu{
+    min-height: 90px;
+    position: fixed;
+    width: 100%;
+    top: 0 ;
+    z-index: 100;
+    background-color: #fff; 
+  }
+  
+  .menu__list{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px; 
+  }
+  
+  .menu_item{
+    padding-left: 50px;
+    color: black;
+}
+.slider__item{
+ 
+  display: flex;
+  padding-top: 166px;
+  min-height: 564px;
+  
+  
+
+}
+
+.slider__text{
+  font-size: 84px;
+  font-family: 'Noto Serif';
+  font-style: normal;
+  padding-top: 235px;
+  padding-left: 135px;
+}
+.slider__big-text{
+  
+  font-weight: bold;
+  font-size: 55px;
+  text-transform: uppercase;
+}
+
+
+  .menu ul{
+    text-align: center;
+    list-style: none;
+    align-items: center;
+    
+  }
+  .menu li{
+    display: inline;
+  
+  }
+  .button{
+  display: block;
+  width: 200px;
+  height: 24px;
+  padding: 18px 0;
+  text-align: center;
+  background-color: #FF715B;
+  font-family: 'Noto Serif';
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+}
+.but_ton{
+  padding-top: 50px;
+  padding-left: 135px;
+}
+.text{
+  position: relative;top: 146px; left: 180px;
+}
+.info_text{
+  color: #A79997;
+}
+.menu__link{
+  text-decoration: none;
+  color: #2C2C2C;
+}
+.header__logo{
+  margin-left: 120px;
+  
+}
+.tours{
+     padding-top: 514px;
+}
+  .info{
+    display: grid;
+    grid-template-columns: repeat(4, 326px) ;
+    margin: -10px -10px 0;
+    gap: 30px;
+ 
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+  }
+  .bimb{
+    text-align: center;
+    padding-top: 24px;
+    font-family: 'Noto Serif';
+    font-size: 24pt;
+  }
+  .img{
+    text-align: center;
+  }
+  .bimb2{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Noto Serif';
+    font-size: 14pt;
+    color: #A79997;
+  }
+  .top-info{
+    display: grid;
+    grid-template-columns: 420px 330px 330px 330px;
+     margin: -10px -10px 0;
+    gap: 30px;
+    margin: 0 auto;
+    
+  }
+  .destination{
+    padding-top: 270px;
+  }
+  .span{
+    color: #FF715B;
+  }
+.bimb3{
+  padding-top: 20px;
+    font-family: 'Noto Serif';
+    font-size: 16pt;
+    color: #A79997;
+}
+.bimb4{
+  padding-top: 24px;
+    font-family: 'Noto Serif';
+    font-size: 40pt;
+}
+.button_info{
+  padding-top: 30px;
+}
+.about{
+  display: grid;
+    grid-template-columns: 570px 690px;
+     margin: -10px -10px 0;
+    gap: 150px;
+    margin: 0 auto;
+}
+.section_about{
+  padding-top: 180px;
+}
+.foto{
+  padding-bottom: 30px;
+  padding-left: 45px;
+}
+.bimb5{
+  font-size: 24px;
+  font-style: bold;
+  font-family: 'Noto Serif';
+  
+  
+
+}
+.icon{
+  margin-left: 130px;
+  margin-top: 30px;
+  padding-bottom: 20px
+}
+.icon2{
+  margin-left: 40px;
+  margin-top: 30px;
+  padding-bottom: 20px
+}
+.gig{
+  font-size: 24px;
+  font-style: bold;
+  font-family: 'Noto Serif';
+  margin-top: -40px;
+  margin-left: 80px;
+}
+  .pad{
+    margin-top: 30px;
+  }
+.section_app{
+  padding-top: 200px;
+  background: url("../img/download\ apps.png") no-repeat center;
+  background-size: 100%;
+  background-size: 1680px 500px;
+}
+.down{
+  font-size: 48px;
+  font-style: bold;
+  font-family: 'Noto Serif';
+  padding-left: 130px;
+  
+}
+.footer_items{
+display: flex;
+flex-direction: row;
+align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1200px ;
+  width: 100%;
+
+}
+li{
+  list-style-type:"– ";
+  color: #A79997;
+  font-size: 18px;
+  font-family: 'Noto Serif';
+}
+.foot_step{
+  font-size: 26px;
+  font-family: 'Noto Serif';
+  font-style: bold;
+  padding-right: 20px;
+}
+.yelloy{
+  color: #FF715B;
+}
+.gap{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.lik{
+  color: #A79997;
+  font-size: 18px;
+  font-family: 'Noto Serif';
+}
+.button:hover,
+.button:focus{
+  background-color: #ff4f34;
+}
+.menu__link:hover,
+.menu__link:focus{
+ color: rgb(241, 108, 108);
+}
+.modal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgb(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none; 
+  opacity: 0;
+  transform: scale(1.5);
+  transition: transform 0.3s ease-in-out; 
+  opacity: 0.3s ease-in-out;
+}
+.modal__wrapper{
+  padding: 30px;
+  background-color: #fff;
+  max-width: 600px;
+  width: 70%;
+  border-radius: 20px;
+  text-align: center;
+}
+.modal--open{
+  display: flex;
+  pointer-events: auto;
+  opacity: 1;
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+  opacity: 0.3s ease-in-out;
+}
+.btn--open{
+  height: 40px;
+  background-color: rgb(201, 103, 103);
+  color: #fff;
+  
+}
+.btn--open:hover{
+  color: black;
+  background-color: rgb(216, 63, 63);
+}
+.tooltip{
+  position: relative;
+  cursor: pointer;
+  background: papayawhip;
+}
+.tooltip::after{
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  max-width: 200px;
+  padding: 10px;
+  background-color: darkblue;
+  color: #fff;
+  pointer-events: none;
+  opacity: 0;
+  transition: transform 0.2s ease-out, opacity 0.2s ease-out;
+}
+.tooltip-animated::after{
+  transform: translatey(100%);
+  opacity: 1;}
+@media screen and (max-width:1200px)  {
+  .info{
+    grid-template-columns: repeat(3, 326px);
+  
+  }
+  .top-info{
+ grid-template-columns: 420px 330px 330px ;
+  
+  }
+  
+} 
+@media screen and (max-width:922px)  {
+  .info{
+    grid-template-columns: repeat(2, 326px);
+   
+  }
+  .top-info{
+    grid-template-columns: 420px 330px  ;
+     
+     }
+} 
+@media screen and (max-width:768px)  {
+  .about{
+    grid-template-columns: 570px ;
+
+   
+  }
+ 
+} 
+@media screen and (max-width:320px)  {
+  .info{
+    grid-template-columns: repeat(1, 326px);
+   
+  }
+  .top-info{
+    grid-template-columns: 420px ;
+     
+     }
+} 
